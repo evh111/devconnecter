@@ -1,8 +1,11 @@
 import React, { Fragment, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+
+// Actions
 import { getProfiles } from '../../actions/profile';
 
+// Components
 import ProfileItem from './ProfileItem';
 import Spinner from '../layout/Spinner';
 

@@ -2,8 +2,10 @@ import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
+// Actions
 import { getGithubRepos } from '../../actions/profile';
 
+// Components
 import Spinner from '../layout/Spinner';
 
 const ProfileGithub = ({ username, getGithubRepos, repos }) => {

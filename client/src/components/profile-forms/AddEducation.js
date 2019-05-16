@@ -3,6 +3,7 @@ import { Link, withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
+// Actions
 import { addEducation } from '../../actions/profile';
 
 const AddEducation = ({ addEducation, history }) => {

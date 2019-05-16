@@ -2,8 +2,11 @@ import React, { Fragment, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+
+// Actions
 import { getProfileById } from '../../actions/profile';
 
+// Components
 import Spinner from '../layout/Spinner';
 import ProfileTop from './ProfileTop';
 import ProfileAbout from './ProfileAbout';

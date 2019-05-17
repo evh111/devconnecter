@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://evh111:Vaughan7@devconnecter-ybfr6.mongodb.net/test?retryWrites=true",
+  "jwtSecret": "OUCHOUCHouchouchjohn",
+  "githubClientId": "56bd88c1488aac34c5b9",
+  "githubSecret": "50320e0ea8074b593908dd4cc288f49e891fe2bd"
+}

@@ -14,7 +14,7 @@
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Gugi', cursive;
   font-size: 1rem;
   line-height: 1.6;
   background-color: #fff;
@@ -137,6 +137,7 @@ img {
   margin-right: 0.5rem;
   transition: opacity 0.2s ease-in;
   outline: none;
+  border-radius: 3px;
 }
 
 .badge {
@@ -256,6 +257,7 @@ img {
   padding: 0.4rem;
   font-size: 1.2rem;
   border: 1px solid #ccc;
+  font-family: 'Gugi', cursive;
 }
 
 .form input[type='submit'],

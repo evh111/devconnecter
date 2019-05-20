@@ -12,6 +12,7 @@ import setAuthToken from './utils/setAuthToken';
 import Navbar from './components/layout/Navbar';
 import Landing from './components/layout/Landing';
 import Routes from './components/routing/Routes';
+import Footer from './components/layout/Footer';
 
 // Set a global auth token
 if (localStorage.token) {
@@ -32,6 +33,7 @@ const App = () => {
             <Route exact path='/' component={Landing} />
             <Route component={Routes} />
           </Switch>
+          <Footer />
         </Fragment>
       </Router>
     </Provider>

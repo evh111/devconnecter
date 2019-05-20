@@ -137,7 +137,7 @@ img {
   margin-right: 0.5rem;
   transition: opacity 0.2s ease-in;
   outline: none;
-  border-radius: 3px;
+  border-radius: 6px;
 }
 
 .badge {
@@ -147,6 +147,7 @@ img {
   margin: 0.3rem;
   background: var(--light-color);
   color: #333;
+  border-radius: 6px;
 }
 
 .alert {
@@ -155,6 +156,7 @@ img {
   opacity: 0.9;
   background: var(--light-color);
   color: #333;
+  border-radius: 6px;
 }
 
 .btn-primary,
@@ -163,6 +165,7 @@ img {
 .alert-primary {
   background: var(--primary-color);
   color: #fff;
+  border-radius: 3px;
 }
 
 .btn-light,
@@ -238,6 +241,7 @@ img {
 /* Forms */
 .form .form-group {
   margin: 1.2rem 0;
+  border-radius: 6px;
 }
 
 .form .form-text {
@@ -258,6 +262,7 @@ img {
   font-size: 1.2rem;
   border: 1px solid #ccc;
   font-family: 'Gugi', cursive;
+  border-radius: 6px;
 }
 
 .form input[type='submit'],
@@ -332,6 +337,18 @@ button {
   margin-right: 0.6rem;
 }
 
+/* Footer */
+.footer {
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+  border-top: solid 1px var(--primary-color);
+  opacity: 1;
+}
+
 /* Landing Page */
 .landing {
   position: relative;
@@ -360,6 +377,7 @@ button {
   padding: 1rem;
   line-height: 1.8;
   margin-bottom: 1rem;
+  border-radius: 6px;
 }
 
 /* Profile Page */
@@ -380,6 +398,7 @@ button {
   align-items: center;
   justify-content: center;
   text-align: center;
+  border-radius: 6px;
 }
 
 .profile-top img {
@@ -398,6 +417,7 @@ button {
 .profile-about {
   grid-area: about;
   text-align: center;
+  border-radius: 6px;
 }
 
 .profile-about .skills {
@@ -409,10 +429,12 @@ button {
 
 .profile-exp {
   grid-area: exp;
+  border-radius: 6px;
 }
 
 .profile-edu {
   grid-area: edu;
+  border-radius: 6px;
 }
 
 .profile-exp h2,
@@ -443,6 +465,7 @@ button {
 
 .profile-github .repo {
   display: flex;
+  border-radius: 6px;
 }
 
 .profile-github .repo > div:first-child {
@@ -466,6 +489,7 @@ button {
   grid-template-columns: 1fr 4fr;
   grid-gap: 2rem;
   align-items: center;
+  border-radius: 6px;
 }
 
 .post > div:first-child {

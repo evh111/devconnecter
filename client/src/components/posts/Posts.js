@@ -20,9 +20,9 @@ const Posts = ({ getPosts, post: { posts, loading } }) => {
   ) : (
     <Fragment>
       <h1 className='large text-primary'>Posts</h1>
-      <p className='lead'>
-        <i className='fas fa-user'> Welcome to the community</i>
-      </p>
+      <h5 className='lead'>
+        <i className='fas fa-user' /> Welcome to the forums
+      </h5>
       <PostForm />
       <div className='posts'>
         {posts.map(post => (
